@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_base.scss",
+        "../scss/_navbar.scss",
+        "../scss/_header.scss",
+        "../scss/_first-section.scss",
+        "../scss/_best-seller.scss",
+        "../scss/_middle-section.scss",
+        "../scss/_feature-products.scss",
+        "../scss/_second-section.scss",
+        "../scss/_blog.scss",
+        "../scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
