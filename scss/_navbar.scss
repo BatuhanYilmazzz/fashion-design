@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  border-bottom: 1px solid #eee;
+
+  &__logo {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+  }
+
+  &__sections {
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style-type: none;
+      &__item {
+        font-size: 0.95rem;
+        margin-left: 2rem;
+        cursor: pointer;
+        color: #1a1a1a;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    img {
+      width: 14px;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+  }
+}

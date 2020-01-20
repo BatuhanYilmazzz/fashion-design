@@ -1,1 +1,75 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 60px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar__logo {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.navbar__sections__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar__sections__list__item {
+  font-size: 0.95rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+
+.navbar__sections__list__item:hover {
+  text-decoration: underline;
+}
+
+.navbar__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__icons img {
+  width: 14px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.collections {
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */

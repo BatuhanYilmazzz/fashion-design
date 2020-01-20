@@ -1,10 +1,20 @@
 @import 'base';
 @import 'navbar';
 @import 'header';
-@import 'first-section';
-@import 'best-seller';
+@import 'collections';
+@import 'fashion';
+@import 'great-selection';
+@import 'shop-collection';
 @import 'middle-section';
-@import 'feature-products';
-@import 'second-section';
 @import 'blog';
 @import 'footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}

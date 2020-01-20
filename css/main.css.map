@@ -1,16 +1,16 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,SAAS;EAClB,aAAa,EAAE,cAAc;CAoC9B;;AAlCE,AAAD,aAAO,CAAC;EACN,SAAS,EAAE,MAAM;EACjB,cAAc,EAAE,SAAS;CAC1B;;AAGE,AAAD,uBAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,eAAe,EAAE,IAAI;CAUtB;;AATE,AAAD,6BAAO,CAAC;EACN,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,OAAO;CAIf;;AARA,AAKC,6BALK,AAKJ,MAAM,CAAC;EACN,eAAe,EAAE,SAAS;CAC3B;;AAKN,AAAD,cAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,MAAM;EACrB,eAAe,EAAE,aAAa;CAO/B;;AAVA,AAKC,cALM,CAKN,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,OAAO;CAChB;;AEvCL,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;CAkBd;;AJRD,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,6BAA6B;CAC3C",
     "sources": [
         "../scss/main.scss",
         "../scss/_base.scss",
         "../scss/_navbar.scss",
         "../scss/_header.scss",
-        "../scss/_first-section.scss",
-        "../scss/_best-seller.scss",
+        "../scss/_collections.scss",
+        "../scss/_fashion.scss",
+        "../scss/_great-selection.scss",
+        "../scss/_shop-collection.scss",
         "../scss/_middle-section.scss",
-        "../scss/_feature-products.scss",
-        "../scss/_second-section.scss",
         "../scss/_blog.scss",
         "../scss/_footer.scss"
     ],
