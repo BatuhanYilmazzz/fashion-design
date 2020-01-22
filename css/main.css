@@ -188,22 +188,81 @@
 .great-selection {
   text-align: center;
   max-width: 1900px;
-  margin: 4rem auto;
+  margin: 6rem auto;
   color: #232323;
+  padding: 10px;
+}
+
+.great-selection h2 {
+  margin-bottom: 2rem;
+}
+
+.great-selection__content {
+  margin-bottom: 5rem;
+  color: #808080;
+  font-size: 0.9rem;
 }
 
 .great-selection-part {
   margin-top: 2rem;
   display: -ms-grid;
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 60px 10px;
   -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  -ms-grid-rows: (300px)[2];
-      grid-template-rows: repeat(2, 300px);
+  -ms-grid-rows: (600px)[2];
+      grid-template-rows: repeat(2, 600px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.great-selection__parts {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.great-selection__parts .button {
+  position: absolute;
+  left: 35%;
+  bottom: 12%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s ease;
+  transition: opacity 0.8s ease;
+  font-size: 0.75rem;
+}
+
+.great-selection__parts .button a {
+  padding: 0.6rem 1.8rem;
+  text-align: center;
+  background-color: #232323;
+  color: #fff;
+  border: solid 2px #232323;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.great-selection__parts:hover .button {
+  opacity: 1;
+}
+
+.great-selection__parts__img {
+  width: 350px;
+  margin-bottom: 1.5rem;
+}
+
+.great-selection__parts__name {
+  margin-bottom: 0.1rem;
+  color: #232323;
+  font-size: 0.9rem;
+}
+
+.great-selection__parts__price {
+  margin-bottom: 1rem;
+  color: #808080;
+  font-size: 0.9rem;
 }
 
 * {

@@ -4,15 +4,71 @@ $secondary-color: #fff;
 .great-selection {
   text-align: center;
   max-width: 1900px;
-  margin: 4rem auto;
+  margin: 6rem auto;
   color: $primary-color;
+  padding: 10px;
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+  &__content {
+    margin-bottom: 5rem;
+    color: $blog-primary;
+    font-size: 0.9rem;
+  }
 
   &-part {
     margin-top: 2rem;
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 60px 10px;
+
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(2, 600px);
     justify-content: center;
+  }
+
+  &__parts {
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+    .button {
+      position: absolute;
+      left: 35%;
+      bottom: 12%;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.8s ease;
+      font-size: 0.75rem;
+    }
+
+    .button a {
+      padding: 0.6rem 1.8rem;
+      text-align: center;
+      background-color: $primary-color;
+      color: #fff;
+      border: solid 2px $primary-color;
+      z-index: 1;
+      text-decoration: none;
+    }
+
+    &:hover .button {
+      opacity: 1;
+    }
+    &__img {
+      width: 350px;
+      margin-bottom: 1.5rem;
+    }
+
+    &__name {
+      margin-bottom: 0.1rem;
+      color: $primary-color;
+      font-size: 0.9rem;
+    }
+    &__price {
+      margin-bottom: 1rem;
+      color: $blog-primary;
+      font-size: 0.9rem;
+    }
   }
 }
