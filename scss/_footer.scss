@@ -1,0 +1,80 @@
+.footer {
+  background: #141414;
+  color: $blog-primary;
+  padding: 0.5rem 0;
+  &__container {
+    max-width: 1200px;
+    margin: 0.5rem auto;
+    margin-bottom: 0;
+  }
+
+  &__subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid $blog-primary;
+
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h3 {
+        margin-right: 20px;
+      }
+      input {
+        padding: 8px 4px;
+        width: 300px;
+        background: #1e1e1e;
+        border: none;
+      }
+    }
+
+    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+        li {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  &__info {
+    display: grid;
+    grid-gap: 20px 5px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: repeat(1, 200px);
+    margin: 0 auto;
+    justify-items: center;
+
+    &__content {
+      h5 {
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        margin-bottom: 10px;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          cursor: pointer;
+          margin-bottom: 2px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

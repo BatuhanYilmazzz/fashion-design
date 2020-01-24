@@ -21,7 +21,6 @@ $secondary-color: #fff;
     margin-top: 2rem;
     display: grid;
     grid-gap: 60px 10px;
-
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: repeat(2, 600px);
     justify-content: center;
@@ -50,6 +49,11 @@ $secondary-color: #fff;
       border: solid 2px $primary-color;
       z-index: 1;
       text-decoration: none;
+
+      &:hover {
+        background: #333;
+        color: #fff;
+      }
     }
 
     &:hover .button {
