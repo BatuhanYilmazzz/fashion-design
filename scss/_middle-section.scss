@@ -2,4 +2,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+
+  &__left {
+    padding: 10px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__right {
+    padding: 10px;
+    position: relative;
+    img {
+      max-width: 100%;
+    }
+
+    &__content {
+      position: absolute;
+      top: 40%;
+      left: 25%;
+      text-align: center;
+
+      h1 {
+        font-size: 5rem;
+        margin-bottom: 0.5rem;
+      }
+      button {
+        border: 1px solid $primary-color;
+        background: $primary-color;
+        padding: 8px 80px;
+        font-size: 12px;
+        color: #fff;
+        margin-bottom: 20px;
+        transition: background 0.4s ease-in;
+        cursor: pointer;
+        &:hover {
+          background: transparent;
+          color: $primary-color;
+        }
+      }
+
+      p {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      input {
+        padding: 5px 2px;
+        width: 500px;
+        border: none;
+        border-bottom: 1px solid $primary-color;
+        background: transparent;
+      }
+    }
+  }
 }
