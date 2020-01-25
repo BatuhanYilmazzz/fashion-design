@@ -39,6 +39,26 @@ $secondary-color: #fff;
       opacity: 0;
       transition: opacity 0.8s ease;
       font-size: 0.75rem;
+      @media only screen and (max-width: 1000px) {
+        font-size: 1.2rem;
+        left: 35%;
+      }
+      @media only screen and (max-width: 730px) {
+        font-size: 1.2rem;
+        left: 42%;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 1.2rem;
+        left: 40%;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 1.2rem;
+        left: 38%;
+      }
+      @media only screen and (max-width: 400px) {
+        font-size: 1.2rem;
+        left: 35%;
+      }
     }
 
     .button a {
@@ -68,11 +88,17 @@ $secondary-color: #fff;
       margin-bottom: 0.1rem;
       color: $primary-color;
       font-size: 0.9rem;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.2rem;
+      }
     }
     &__price {
       margin-bottom: 1rem;
       color: $blog-primary;
       font-size: 0.9rem;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.2rem;
+      }
     }
   }
 }

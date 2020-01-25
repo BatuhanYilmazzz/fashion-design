@@ -4,6 +4,12 @@
   justify-content: space-between;
   padding: 15px 60px;
   border-bottom: 1px solid $blog-primary;
+  @media only screen and (max-width: 850px) {
+    padding: 10px 30px;
+  }
+  @media only screen and (max-width: 500px) {
+    padding: 10px 10px;
+  }
 
   &__logo {
     font-size: 1.7rem;

@@ -5,6 +5,9 @@
   margin-top: 6rem;
   color: $primary-color;
   padding: 50px;
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
 
   h2 {
     margin-bottom: 2rem;

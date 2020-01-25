@@ -15,7 +15,17 @@ $secondary-color: #fff;
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  @media only screen and (max-width: 1300px) {
+    font-size: 87.5%;
+  }
+  @media only screen and (max-width: 1000px) {
+    font-size: 75%;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 62.5%;
+  }
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }

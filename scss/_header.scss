@@ -8,9 +8,22 @@
 
   &__content {
     position: absolute;
-    left: 10%;
+    left: 100px;
     top: 20%;
     color: $primary-color;
+    @media only screen and (max-width: 1450px) {
+      left: 50px;
+      top: 20%;
+    }
+    @media only screen and (max-width: 950px) {
+      left: 30px;
+      top: 50%;
+    }
+    @media only screen and (max-width: 600px) {
+      left: 15px;
+      top: 60%;
+    }
+
     &__new {
       font-size: 0.8rem;
       margin-bottom: 1rem;

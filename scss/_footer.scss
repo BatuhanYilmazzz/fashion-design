@@ -1,26 +1,41 @@
 .footer {
   background: #141414;
   color: $blog-primary;
-  padding: 0.5rem 0;
+
   &__container {
     max-width: 1200px;
     margin: 0.5rem auto;
     margin-bottom: 0;
+    padding: 0.5rem 1rem;
   }
 
   &__subscribe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
+    @media only screen and (max-width: 900px) {
+      display: block;
+    }
+    @media only screen and (max-width: 500px) {
+      padding: 1rem 0.5rem;
+    }
 
     &__left {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      text-align: center;
+      margin: 0 auto;
+      @media only screen and (max-width: 950px) {
+        display: block;
+        justify-content: center;
+        text-align: center;
+      }
+
       h3 {
         margin-right: 20px;
+        margin-bottom: 10px;
       }
       input {
         padding: 8px 4px;
@@ -34,12 +49,18 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      @media only screen and (max-width: 950px) {
+        display: none;
+      }
 
       ul {
         display: flex;
         align-items: center;
         justify-content: center;
         list-style: none;
+        @media only screen and (max-width: 800px) {
+          display: block;
+        }
 
         li {
           margin-left: 5px;
@@ -55,6 +76,12 @@
     grid-template-rows: repeat(1, 200px);
     margin: 0 auto;
     justify-items: center;
+
+    margin-top: 10px;
+    align-items: center;
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
 
     &__content {
       h5 {

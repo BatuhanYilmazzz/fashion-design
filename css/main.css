@@ -12,6 +12,18 @@
   border-bottom: 1px solid #808080;
 }
 
+@media only screen and (max-width: 850px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding: 10px 10px;
+  }
+}
+
 .navbar__logo {
   font-size: 1.7rem;
   text-transform: uppercase;
@@ -69,9 +81,30 @@
 
 .header__content {
   position: absolute;
-  left: 10%;
+  left: 100px;
   top: 20%;
   color: #232323;
+}
+
+@media only screen and (max-width: 1450px) {
+  .header__content {
+    left: 50px;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .header__content {
+    left: 30px;
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__content {
+    left: 15px;
+    top: 60%;
+  }
 }
 
 .header__content__new {
@@ -121,6 +154,18 @@
   max-width: 100%;
   padding: 10px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .collections {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .collections {
+    padding: 5px;
+  }
 }
 
 .collections__left__up {
@@ -284,6 +329,41 @@
   font-size: 0.75rem;
 }
 
+@media only screen and (max-width: 1000px) {
+  .great-selection__parts .button {
+    font-size: 1.2rem;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .great-selection__parts .button {
+    font-size: 1.2rem;
+    left: 42%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .great-selection__parts .button {
+    font-size: 1.2rem;
+    left: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .great-selection__parts .button {
+    font-size: 1.2rem;
+    left: 38%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .great-selection__parts .button {
+    font-size: 1.2rem;
+    left: 35%;
+  }
+}
+
 .great-selection__parts .button a {
   padding: 0.6rem 1.8rem;
   text-align: center;
@@ -314,10 +394,22 @@
   font-size: 0.9rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .great-selection__parts__name {
+    font-size: 1.2rem;
+  }
+}
+
 .great-selection__parts__price {
   margin-bottom: 1rem;
   color: #808080;
   font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .great-selection__parts__price {
+    font-size: 1.2rem;
+  }
 }
 
 .middle-section {
@@ -331,6 +423,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .middle-section {
+    display: block;
+  }
 }
 
 .middle-section__left {
@@ -352,14 +450,87 @@
 
 .middle-section__right__content {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 25%;
   text-align: center;
+}
+
+@media only screen and (max-width: 1450px) {
+  .middle-section__right__content {
+    left: 15%;
+    top: 25%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .middle-section__right__content {
+    left: 15%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .middle-section__right__content {
+    left: 30%;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .middle-section__right__content {
+    left: 20%;
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .middle-section__right__content {
+    left: 20%;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .middle-section__right__content {
+    left: 15%;
+    top: 20%;
+  }
 }
 
 .middle-section__right__content h1 {
   font-size: 5rem;
   margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .middle-section__right__content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .middle-section__right__content h1 {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .middle-section__right__content h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-section__right__content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .middle-section__right__content h1 {
+    padding: 8px 40px;
+    font-size: 3rem;
+  }
 }
 
 .middle-section__right__content button {
@@ -379,17 +550,78 @@
   color: #232323;
 }
 
+@media only screen and (max-width: 500px) {
+  .middle-section__right__content button {
+    padding: 8px 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .middle-section__right__content button {
+    padding: 8px 40px;
+    font-size: 10px;
+  }
+}
+
 .middle-section__right__content p {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .middle-section__right__content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .middle-section__right__content p {
+    font-size: 1.1rem;
+  }
+}
+
 .middle-section__right__content input {
   padding: 5px 2px;
-  width: 500px;
+  width: 400px;
   border: none;
   border-bottom: 1px solid #232323;
   background: transparent;
+}
+
+@media only screen and (max-width: 1000px) {
+  .middle-section__right__content input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .middle-section__right__content input {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .middle-section__right__content input {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .middle-section__right__content input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-section__right__content input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-section__right__content input {
+    font-size: 10px;
+  }
 }
 
 .blog {
@@ -399,6 +631,12 @@
   margin-top: 6rem;
   color: #232323;
   padding: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .blog {
+    padding: 20px;
+  }
 }
 
 .blog h2 {
@@ -517,13 +755,13 @@
 .footer {
   background: #141414;
   color: #808080;
-  padding: 0.5rem 0;
 }
 
 .footer__container {
   max-width: 1200px;
   margin: 0.5rem auto;
   margin-bottom: 0;
+  padding: 0.5rem 1rem;
 }
 
 .footer__subscribe {
@@ -536,8 +774,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2rem;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer__subscribe {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer__subscribe {
+    padding: 1rem 0.5rem;
+  }
 }
 
 .footer__subscribe__left {
@@ -550,10 +799,23 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer__subscribe__left {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
 }
 
 .footer__subscribe__left h3 {
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .footer__subscribe__left input {
@@ -575,6 +837,12 @@
           justify-content: space-between;
 }
 
+@media only screen and (max-width: 950px) {
+  .footer__subscribe__right {
+    display: none;
+  }
+}
+
 .footer__subscribe__right ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -586,6 +854,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer__subscribe__right ul {
+    display: block;
+  }
 }
 
 .footer__subscribe__right ul li {
@@ -602,6 +876,16 @@
       grid-template-rows: repeat(1, 200px);
   margin: 0 auto;
   justify-items: center;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__info {
+    text-align: center;
+  }
 }
 
 .footer__info__content h5 {
@@ -627,6 +911,24 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1300px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
 }
 
 body {

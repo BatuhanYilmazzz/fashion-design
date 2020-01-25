@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
+  @media only screen and (max-width: 1000px) {
+    display: block;
+  }
 
   &__left {
     padding: 10px;
@@ -20,13 +23,52 @@
 
     &__content {
       position: absolute;
-      top: 40%;
+      top: 30%;
       left: 25%;
       text-align: center;
-
+      @media only screen and (max-width: 1450px) {
+        left: 15%;
+        top: 25%;
+      }
+      @media only screen and (max-width: 1300px) {
+        left: 15%;
+        top: 20%;
+      }
+      @media only screen and (max-width: 1000px) {
+        left: 30%;
+        top: 30%;
+      }
+      @media only screen and (max-width: 900px) {
+        left: 20%;
+        top: 30%;
+      }
+      @media only screen and (max-width: 500px) {
+        left: 20%;
+        top: 20%;
+      }
+      @media only screen and (max-width: 400px) {
+        left: 15%;
+        top: 20%;
+      }
       h1 {
         font-size: 5rem;
         margin-bottom: 0.5rem;
+        @media only screen and (max-width: 1300px) {
+          font-size: 4rem;
+        }
+        @media only screen and (max-width: 1000px) {
+          font-size: 7rem;
+        }
+        @media only screen and (max-width: 700px) {
+          font-size: 5rem;
+        }
+        @media only screen and (max-width: 600px) {
+          font-size: 4rem;
+        }
+        @media only screen and (max-width: 500px) {
+          padding: 8px 40px;
+          font-size: 3rem;
+        }
       }
       button {
         border: 1px solid $primary-color;
@@ -41,19 +83,50 @@
           background: transparent;
           color: $primary-color;
         }
+        @media only screen and (max-width: 500px) {
+          padding: 8px 50px;
+        }
+        @media only screen and (max-width: 500px) {
+          padding: 8px 40px;
+          font-size: 10px;
+        }
       }
 
       p {
         font-size: 2rem;
         margin-bottom: 20px;
+        @media only screen and (max-width: 600px) {
+          font-size: 1.5rem;
+        }
+        @media only screen and (max-width: 500px) {
+          font-size: 1.1rem;
+        }
       }
 
       input {
         padding: 5px 2px;
-        width: 500px;
+        width: 400px;
         border: none;
         border-bottom: 1px solid $primary-color;
         background: transparent;
+        @media only screen and (max-width: 1000px) {
+          width: 300px;
+        }
+        @media only screen and (max-width: 1000px) {
+          width: 500px;
+        }
+        @media only screen and (max-width: 900px) {
+          width: 400px;
+        }
+        @media only screen and (max-width: 700px) {
+          width: 300px;
+        }
+        @media only screen and (max-width: 600px) {
+          width: 200px;
+        }
+        @media only screen and (max-width: 600px) {
+          font-size: 10px;
+        }
       }
     }
   }
