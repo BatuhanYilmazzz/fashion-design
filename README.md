@@ -27,7 +27,7 @@ The full project requirements can be found below.
 - Css3
 - Scss
 
-### ✨ [Live Demo](https://BatuhanYilmazzz.github.io/FashionDesign/)
+### ✨ [Live Demo](https://batuhanyilmazzz.github.io/FashionDesign/)
 
 
 ## Author
