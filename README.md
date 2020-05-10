@@ -27,7 +27,7 @@ The full project requirements can be found below.
 - Css3
 - Scss
 
-### ✨ [Live Demo](https://batuhanyilmazzz.github.io/FashionDesign/)
+### ✨ [Live Demo](https://batuhanyilmazzz.github.io/fashion-design/)
 
 
 ## Author
@@ -36,7 +36,7 @@ The full project requirements can be found below.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/BatuhanYilmazzz/NetflixReact/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/BatuhanYilmazzz/fashion-design/issues).
 
 1. Fork it (https://github.com//fork)
 2. Create your working branch (git checkout -b [choose-a-name])
